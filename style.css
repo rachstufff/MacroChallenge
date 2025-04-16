@@ -1,13 +1,13 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body, html {
-  font-family: 'Segoe UI', sans-serif;
-  height: 100%;
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fff;
+  color: #333;
 }
 
 header {
@@ -16,17 +16,25 @@ header {
   padding: 15px 30px;  
 }
 
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
 .logo {
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 24px;  
+  font-weight: 600;
+  color: #f59cb3;  
 }
 
 .logo .blush {
-  color: #e88ea0;
+  color: #e88ea0;  
 }
 
 .logo .pixels {
-  color: #444;
+  color: #444;  
 }
 
 .hero {
