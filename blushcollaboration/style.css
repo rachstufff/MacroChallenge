@@ -1,0 +1,206 @@
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+      body {
+        background-color: #ffffff;
+        color: #333;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 50px;
+        background-color: white;
+        border-bottom: 1px solid #eee;
+      }
+      .logo {
+        font-weight: 600;
+        font-size: 20px;
+      }
+      .logo span {
+        color: #f28cb0;
+      }
+      nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+      }
+      nav a.active {
+        color: #f28cb0;
+      }
+      .account {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 14px;
+        color: #555;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      .account img {
+        width: 24px;
+        height: 24px;
+        margin-bottom: 4px;
+      }
+      .hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px;
+      }
+      .hero-text {
+        max-width: 50%;
+      }
+      .hero-text h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+      }
+      .hero-text h1 span {
+        color: #f28cb0;
+      }
+      .hero-text p {
+        margin-bottom: 20px;
+        line-height: 1.6;
+      }
+      .hero-text button {
+        background-color: #5a83d6;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .hero img {
+        width: 45%;
+        border-radius: 10px;
+      }
+      .komunitas {
+        padding: 50px;
+        text-align: center;
+      }
+      .komunitas h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        font-weight: 600;
+      }
+      .komunitas p {
+        margin-bottom: 40px;
+        color: #555;
+      }
+      .cards {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+      }
+      .card {
+        text-align: center;
+        width: 200px;
+      }
+      .icon-wrapper {
+        width: 100px;
+        height: 100px;
+        background-color: #f1f1f1;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 15px;
+      }
+      .icon-wrapper img {
+        width: 60px;
+        height: auto;
+      }
+      .card h3 {
+        font-size: 16px;
+        font-weight: 600;
+      }
+      .card p {
+        color: #777;
+        font-size: 14px;
+      }
+      footer {
+        background-color: #fbe9ef;
+        padding: 40px 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 5px solid #f4b4c8;
+        border-bottom: 5px solid #f4b4c8;
+      }
+
+      footer .left,
+      footer .right {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 14px;
+        color: #555;
+      }
+
+      footer .left i,
+      footer .right i {
+        margin-right: 8px;
+      }
+
+      footer .center {
+        text-align: center;
+      }
+
+      footer .center h1 {
+        font-size: 32px;
+        font-weight: 700;
+        color: #333;
+      }
+
+      footer .center h1 span {
+        color: #f28cb0;
+      }
+
+      footer .center .socials {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin-top: 20px;
+      }
+
+      footer .center .socials i {
+        font-size: 20px;
+        color: #f28cb0;
+        background-color: #fddde9;
+        border-radius: 50%;
+        padding: 10px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      footer .right h4 {
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: #333;
+      }
+      footer .icon {
+        width: 16px;
+        height: 16px;
+        margin-right: 8px;
+        vertical-align: middle;
+      }
+
+      footer .social-icon {
+        width: 24px;
+        height: 24px;
+        margin: 0 8px;
+        vertical-align: middle;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+      }
+
+      footer .social-icon:hover {
+        transform: scale(1.2);
+      }
