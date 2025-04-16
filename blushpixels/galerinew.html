@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlushPixels</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  </head>
+  <body>
+
+    <header>
+      <div class="topbar">
+        <div class="logo">Blush<span>Pixels</span></div>
+
+        <!-- Navbar tengah -->
+        <nav class="navbar">
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">GALLERY</a></li>
+            <li><a href="#">COLLABORATION</a></li>
+            <li><a href="#">OTHERS</a></li>
+          </ul>
+        </nav>
+  
+        <!-- Icon pojok kanan -->
+        <div class="account-icon">
+          <a href="#" class="icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+              viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+              class="icon">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501
+                20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12
+                21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+            </svg>
+            <span class="icon-text">Account</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <section class="upload-filter">
+      <div class="upload-icon">
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
+            <path fillRule="evenodd" d="M11.47 2.47a.75.75 0 0 1 1.06 0l4.5 4.5a.75.75 0 0 1-1.06 1.06l-3.22-3.22V16.5a.75.75 0 0 1-1.5 0V4.81L8.03 8.03a.75.75 0 0 1-1.06-1.06l4.5-4.5ZM3 15.75a.75.75 0 0 1 .75.75v2.25a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V16.5a.75.75 0 0 1 1.5 0v2.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V16.5a.75.75 0 0 1 .75-.75Z" clipRule="evenodd" />
+          </svg>          
+        </a>
+      </div>
+      <div class="filter-category">
+        <select>
+          <option value="">-- Pilih Kategori --</option>
+          <option value="lukisan">Lukisan</option>
+          <option value="patung">Patung</option>
+          <option value="fotografi">Fotografi</option>
+          <option value="musik">Musik</option>
+          <option value="kerajinan">Kerajinan</option>
+          <option value="digitalart">Digital Art</option>
+        </select>
+      </div>
+    </section>
+  
+    <section class="trending">
+      <h2>TRENDING</h2>
+      <div class="carousel-container">
+        <div class="carousel">
+          <button class="prev">⟨</button>
+    
+          <img src="images/slider1.png" class="slide active" alt="Slide 1">
+          <img src="images/slider2.png" class="slide" alt="Slide 2">
+          <img src="images/slider3.jpg" class="slide" alt="Slide 3">
+          <img src="images/slider4.jpg" class="slide" alt="Slide 4">
+          <img src="images/slider5.jpg" class="slide" alt="Slide 5">
+          
+          <button class="next">⟩</button>
+      </div>
+      <div class="carousel-indicators">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>      
+    </section>
+
+  <section class="categories">
+    <h2>ANEKA RAGAM SENI</h2>
+    <h3>LUKISAN</h3>
+    <div class="category-list">
+      <img src="images/art1.png" alt="Lukisan">
+      <img src="images/art2.png" alt="Lukisan">
+      <img src="images/art3.png" alt="Lukisan">
+      <img src="images/art4.png" alt="Lukisan">
+    </div>
+    <button class="see-more" onclick="location.href='ragamkarya.html'">Selengkapnya</button>
+  </section>
+
+  <section class="stories">
+    <h2>CERITA DI BALIK KARYA</h2>
+    <div class="story-cards">
+      <div class="card">
+        <img src="images/story1.png" alt="Story">
+        <h3>Lukisan “Perahu dan Matahari” Karya Maestro Affandi</h3>
+        <p>Lukisan ini menggambarkan perjuangan hidup, membayangkan kehidupan masa-masa sulit sebagai metafora dengan latar belakang perahu dan matahari sebagai harapan.</p>
+        <button>Selengkapnya</button>
+      </div>
+      <div class="card">
+        <img src="images/story2.png" alt="Story">
+        <h3>Lukisan “Pengamen Istirahat” Karya Iko Jakko</h3>
+        <p>Lukisan ini mengangkat tema kerasnya hidup jalanan. Terinspirasi dari kehidupan sehari-hari para pengamen yang jarang terlihat saat istirahat.</p>
+        <button>Selengkapnya</button>
+      </div>
+      <div class="card">
+        <img src="images/story3.png" alt="Story">
+        <h3>Lukisan “Peperangan Antara Galaksi Dengan Antara” Karya Boscali Abdulloh</h3>
+        <p>Lukisan ini menceritakan pertarungan kosmik antara dimensi berbeda. Lukisan ini berisi simbolisme antara kehancuran dan harapan baru di tengah kekacauan galaksi.</p>
+        <button>Selengkapnya</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="logo">Blush<span>Pixels</span></div>
+      <p>Express the soul of creativity in every stroke of your brush.</p>
+      <p>Email: blushpixels@gmail.com</p>
+    </div>
+    <div class="footer-links">
+      <div>
+        <h4>Help</h4>
+        <ul>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Shipping</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Newsletter</h4>
+        <input type="email" placeholder="Email address"/>
+        <button>Subscribe</button>
+      </div>
+    </div>
+  </footer>
+  <script src="slider.js"></script>
+</body>
+</html>
